@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite song</title>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 80px;
+            margin: 0;
+        }
+
+        .leyenda {
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 50px;
+        }
+
+        .portadas{
+            display: flex;
+            width: 100vw;
+            justify-content: space-around;
+            
+        }
+
+        .tamaleroImg {
+            background-image: url(https://i.scdn.co/image/ab67616d0000b273d4cf3a80f19b0e3af337d791);
+            background-size: contain;
+        }
+
+        .rapgodImg {
+            background-image: url(https://i.scdn.co/image/ab67616d0000b273643e6ecebab400d52574e4b2);
+            background-size: contain;
+        }
+
+        .puertaNegraImg {
+            background-image: url(https://i.scdn.co/image/ab67616d0000b273da6c344532d31965f8e01852);
+            background-size: contain;
+        }
+
+        .tamaleroImg,
+        .rapgodImg,
+        .puertaNegraImg{
+            width: 200px;
+            height: 200px;
+        }
+
+        .rap-god {
+            visibility: hidden;
+            position: absolute;
+        }
+
+        .el-tamalero {
+            visibility: hidden;
+            position: absolute;
+        }
+
+        .la-puerta-negra {
+            visibility: hidden;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Karioki</h1>
+    <p class="leyenda">Escoge la canción de tu agrado</p>
+    <article class="portadas">
+        <a class="tamaleroImg" href="tamalero.html"></a>
+        <a class="rapgodImg" href="rap_god.html"></a>
+        <a class="puertaNegraImg" href="puerta_negra.html"></a>
+    </article>
+    <article class="portadas">
+        <p><b>El tamalero</b></p>
+        <p><b>Rap God</b></p>
+        <p><b>La puerta negra</b></p>
+    </article>
+
+</body>
+</html>
