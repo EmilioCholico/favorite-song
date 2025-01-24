@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El tamalero</title>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 80px;
+            margin: 0;
+        }
+
+        .leyenda {
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 50px;
+        }
+
+        .portadas{
+            display: flex;
+            width: 100vw;
+            justify-content: space-around;
+            
+        }
+
+        .tamaleroImg {
+            background-image: url(https://i.scdn.co/image/ab67616d0000b273d4cf3a80f19b0e3af337d791);
+            background-size: contain;
+        }
+
+        .tamaleroImg{
+            width: 200px;
+            height: 200px;
+        }
+
+        .el-tamalero {
+            width: 80vw;
+            display: flex;
+            margin: auto;
+        }
+
+        .meme {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .letra {
+            overflow: hidden;
+        }
+
+        .lyric {
+            text-wrap: nowrap;
+            font-size: 80px;
+            animation: karaoke 180s;
+        }
+
+        @keyframes karaoke {
+            0% {
+                margin-left: 0;
+            }
+
+            100% {
+                margin-left: -3350%;
+            }
+            
+        }
+
+        audio {
+            visibility: hidden;
+        }
+
+        span {
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Karioki</h1>
+    <p class="leyenda">Escoge la canción de tu agrado</p>
+    <article class="portadas">
+        <a class="tamaleroImg" href="tamalero.html"></a>
+    </article>
+    <article class="portadas">
+        <p><b>El tamalero</b></p>
+    </article>
+    
+    <p class="meme">Fijate en la letra, fijate en la letra</p>
+    <audio controls src="Oscar Padilla - El Tamalero.mp3" autoplay></audio>
+<article class="el-tamalero">
+    <div class="letra"><p class="lyric"><span>....</span>¡Se van a rifa! <span>....................</span>Y otra vez, Oscar Padilla
+        Presentando el tamalero
+        <span>........</span>Pa' toda la Costa de Oro
+        <span>O00</span>Señores, voy a contarles la historia de un tamalero
+        Él llega a los restaurantes y a los centros botaneros
+        Él es un muchacho alegre y también simpaticón
+        Vende dulces y tamales entonando esta canción
+        
+        (¿Cuál es, cuél es?)
+        
+        Halls, Clorets, pepitorias, cacahuate, Tridents
+        Chocolate, mazapanes, cigarros y Tic Tac
+        Rosas, yyyy se te fue nimodo</p>
+    </div>
+    </article>
+    
+</body>
+</html>
